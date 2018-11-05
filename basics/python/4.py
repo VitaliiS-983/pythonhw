@@ -9,7 +9,7 @@ def isPalindrome(s):
     return False
   
   
-s = "malyaylam"
+s = "radar"
 ans = isPalindrome(s) 
   
 if ans == 1: 

@@ -8,9 +8,9 @@ while guessesTaken < 4:
     guess = int(guess)
     guessesTaken = guessesTaken + 1
     if guess < number:
-        print('Is too low...')
+        print('Is too low...Try again!')
     if guess > number:
-        print('Is too high...')
+        print('Is too high...Try again!')
     if guess == number:
         break
 if guess == number:

@@ -1,7 +1,7 @@
 text = input("Enter plaintext? ")
 shift = int(input("Enter shift? "))
 
-def caesar(text, shift): 
+def caesarCipher(text, shift): 
         temp = ""
         for symbol in text:
             if symbol.isalpha():
@@ -14,4 +14,4 @@ def caesar(text, shift):
         print ("Your ciphertext is: ", (temp))
         return text
 
-caesar(text, shift)
+caesarCipher(text, shift)

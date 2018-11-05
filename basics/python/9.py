@@ -8,8 +8,8 @@ string6 = '[]][[]'
 def test(string):
     length = len(string)
     if length % 2 == 0:
-        half = length / 2
-        first ='[' * half)
+        half = int(length/2)
+        first = '[' * half
         last = ']' * half
         if string[0:half] == first and string[half:length] == last:
             return 'OK'
