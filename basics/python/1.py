@@ -1,11 +1,12 @@
-#import os
+import os
 
 def main():
-    printme ('abc')
+    printme('abc')
 
-def printme (arg):
+def printme(arg):
    string = "Hello," + str(arg) + "!"
-   print (string)
+   print string
+
 
 
 if __name__ == "__main__":
