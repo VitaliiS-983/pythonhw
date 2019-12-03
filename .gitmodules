@@ -1,0 +1,3 @@
+[submodule "Docker-Registry"]
+	path = Docker-Registry
+	url = https://github.com/VitaliiS-983/Docker-Registry.git
